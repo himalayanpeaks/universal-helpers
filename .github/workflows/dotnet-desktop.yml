@@ -17,7 +17,7 @@ jobs:
     runs-on: windows-latest
 
     env:
-      Solution_Name: OneDriver.Helper/OneDriver.Helper.sln
+      Solution_Name: OneDevice.Helper/OneDevice.Helper.sln
 
     steps:
       - name: Checkout repository
@@ -48,7 +48,7 @@ jobs:
     runs-on: windows-latest
 
     env:
-      Solution_Name: OneDriver.Helper/OneDriver.Helper.sln
+      Solution_Name: OneDevice.Helper/OneDevice.Helper.sln
 
     steps:
       - uses: actions/checkout@v4
